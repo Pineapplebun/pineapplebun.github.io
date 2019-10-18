@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kevin Chen's Personal Website",
+  "name": "Kevin Chen's Personal Website",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,19 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "GitHub-Mark-Light-64px.png",
+      "sizes": "64x64",
+      "type": "image/png"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "LI-In-Bug.png",
+      "sizes": "635x540",
+      "type": "image/png"
+    },
+    {
+      "src": "profile-pic.jpg",
+      "sizes": "150x150",
+      "type": "image/jpg"
     }
   ],
   "start_url": ".",
