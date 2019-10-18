@@ -15,7 +15,7 @@ export const ProfileCard: FunctionComponent<{}> = () => (
       <a href="https://github.com/Pineapplebun">
         <img
           alt="My Github"
-          src="Github-Mark-Light-64px.png"
+          src="GitHub-Mark-Light-64px.png"
           className="logo-two"
         ></img>
       </a>
