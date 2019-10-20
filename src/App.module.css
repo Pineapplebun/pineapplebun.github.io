@@ -1,18 +1,19 @@
-.main-content {
-  flex-grow: 8;
-  padding-top: 16px;
-  padding-left: 16px;
+.main {
+  flex: 8 85%;
+  padding: 0em 1.5em;
 }
 
-.navigation-sidebar {
+.sidebar {
   display: flex;
-  flex-grow: 1;
+  flex: 1 15%;
+  padding: 0em 1.5em;
   border-right: 1px solid #fff;
 }
 
-.app-content {
+.app {
   display: flex;
   flex-grow: 1;
   background-color: #202020;
   color: #fff;
+  min-height: 100vh;
 }

@@ -1,34 +1,27 @@
-.profile-picture-card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
 .picture {
   border-radius: 50%;
   border: 1px solid white;
   overflow: hidden;
   width: 150px;
   height: 150px;
+  margin: 2em;
 }
 
-.profile-card-container {
+.container {
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
   align-items: center;
 }
 
-.logo-container {
+.logos {
   padding: 5px 5px 5px 5px;
 }
 
-.logo-one {
+.linkedin {
   width: 25px;
   height: 20px;
 }
-.logo-two {
+.github {
   width: 20px;
   height: 20px;
 }

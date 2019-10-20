@@ -1,20 +1,25 @@
-import { List, ListItem } from "@material-ui/core";
-import "./navigation-sidebar.css";
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { ProfileCard } from "../ui-profile/profile-card";
+import styles from "./navigation-sidebar.module.css";
 
 export default function NavigationSidebar() {
+  let history = useHistory();
+  const navigateHome = () => history.push("/");
+  const navigateAbout = () => history.push("/about");
+  const navigateDiagrammar = () => history.push("/diagrammar");
+
   return (
-    <div className="navigation-container">
-      <div className="navigation-profile">
+    <div className={styles.container}>
+      <div className={styles.profile}>
         <ProfileCard></ProfileCard>
       </div>
-      <div className="navigation-list">
-        <List>
-          <ListItem button>Home</ListItem>
-          <ListItem button>About</ListItem>
-          <ListItem button>Diagrammar Project</ListItem>
-        </List>
+      <div className={styles.list}>
+        <ul>
+          <li onClick={navigateHome}>Home</li>
+          <li onClick={navigateAbout}>About</li>
+          <li onClick={navigateDiagrammar}>Project Diagrammar</li>
+        </ul>
       </div>
     </div>
   );
