@@ -1,0 +1,16 @@
+.post {
+  min-height: 15em;
+  border-radius: 8px;
+  border: 1px solid white;
+  padding: 1em;
+  margin: 0 0 2em 0;
+}
+
+.post:hover {
+  box-shadow: 0 0 0.2em 0.2em #7aa6d8;
+  cursor: pointer;
+}
+
+.post h2 {
+  margin: 0;
+}

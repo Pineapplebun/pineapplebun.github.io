@@ -4,7 +4,7 @@
   overflow: hidden;
   width: 150px;
   height: 150px;
-  margin: 2em;
+  margin: 1.3em;
 }
 
 .container {
@@ -21,7 +21,13 @@
   width: 25px;
   height: 20px;
 }
+
 .github {
   width: 20px;
   height: 20px;
+}
+
+.title {
+  font-size: 1.2em;
+  margin: 0;
 }

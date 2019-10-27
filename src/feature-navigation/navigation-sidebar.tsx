@@ -5,7 +5,7 @@ import styles from "./navigation-sidebar.module.css";
 
 export default function NavigationSidebar() {
   let history = useHistory();
-  const navigateHome = () => history.push("/");
+  const navigateHome = () => history.push("/home");
   const navigateAbout = () => history.push("/about");
   const navigateDiagrammar = () => history.push("/diagrammar");
 

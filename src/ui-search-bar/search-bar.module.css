@@ -1,0 +1,19 @@
+.search {
+  border-radius: 1em;
+  border: 1px solid white;
+}
+
+.search input {
+  font-size: 24px;
+  background: 0%;
+  color: white;
+  padding-left: 1em;
+  border-radius: 1em;
+  border: none;
+  width: calc(100% - 1.1em);
+}
+
+.search input:focus {
+  box-shadow: 0 0 0.2em 0.2em #7aa6d8;
+  outline: none;
+}
