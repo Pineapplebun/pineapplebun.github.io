@@ -13,6 +13,8 @@ export default class HomeContent extends React.Component {
 
         <div className={styles.posts}>
           <Post title="My First Post" message="Welcome to my website!"></Post>
+          <Post title="My First Post" message="Welcome to my website!"></Post>
+          <Post title="My First Post" message="Welcome to my website!"></Post>
         </div>
       </div>
     );

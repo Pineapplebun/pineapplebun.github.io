@@ -1,13 +1,14 @@
 .main {
   flex: 8 85%;
   padding: 0em 1.5em;
+  overflow: auto;
 }
 
 .sidebar {
-  display: flex;
-  flex: 1 15%;
   padding: 0em 1.5em;
   border-right: 1px solid #fff;
+  display: flex;
+  flex: 1 15%;
 }
 
 .app {
@@ -16,4 +17,5 @@
   background-color: #202020;
   color: #fff;
   min-height: 100vh;
+  max-height: 100vh;
 }
