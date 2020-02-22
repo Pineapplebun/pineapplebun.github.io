@@ -1,0 +1,6 @@
+{
+  "INTRO": "I am a software developer based in Toronto looking for opportunities to be a contributor amazing ideas, projects, and products. My current interests revolve around system design, operating systems, and devops.",
+  "HOBBIES": "Some of my hobbies include: board games, escape rooms, strategy video games, tennis, ping pong, hiking, travelling, and trying different cuisines!",
+  "PROJECTS": "Currently I am working on a creating an architectural design documentation engine to allow developers to create specifications in a standardized and simple process.",
+  "INITIATIVES": ["Rust", "Haskell", "Go", "Compilers", "OS", "Networks"]
+}

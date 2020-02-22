@@ -18,7 +18,7 @@ export default function NavigationSidebar() {
         <ul>
           <li onClick={navigateHome}>Home</li>
           <li onClick={navigateAbout}>About</li>
-          <li onClick={navigateDiagrammar}>Project Diagrammar</li>
+          <li onClick={navigateDiagrammar}>Diagrammar</li>
         </ul>
       </div>
     </div>
